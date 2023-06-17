@@ -11,11 +11,11 @@ Features:
 - save anywhere on disk
 
 V2:
--improved GUI 
--files size displayed
--better understanding of how to use
+- improved GUI 
+- files size displayed
+- better understanding of how to use
 
 
 Initial version:
--very simple
--just a button to select files then everything happens automatically
+- very simple
+- just a button to select files then everything happens automatically
