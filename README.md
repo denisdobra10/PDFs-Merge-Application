@@ -14,7 +14,7 @@ V2:
 - improved GUI 
 - files size displayed
 - better understanding of how to use
-
+- auto libraries downloading, installing and importing if not found on user's device
 
 Initial version:
 - very simple
