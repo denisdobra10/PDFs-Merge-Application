@@ -9,3 +9,13 @@ Features:
 - compress the final merged file
 - see the size of the merged file
 - save anywhere on disk
+
+V2:
+-improved GUI 
+-files size displayed
+-better understanding of how to use
+
+
+Initial version:
+-very simple
+-just a button to select files then everything happens automatically
