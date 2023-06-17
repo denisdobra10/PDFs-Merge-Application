@@ -29,7 +29,7 @@ from tkinter import filedialog, messagebox
 import os
 import PyPDF2
 
-# Global variables
+# Global array for selected files
 selected_files = []
 
 
@@ -81,7 +81,7 @@ def merge_pdfs():
         show_success_message(merged_size)
 
 
-# Function to show success message
+# Function to display success message
 def show_success_message(merged_size):
     success_label.grid()
     success_label.config(text=f"PDFs merged successfully! Size of merged file: {merged_size} MB", fg="green")
@@ -91,7 +91,7 @@ def show_success_message(merged_size):
 window = tk.Tk()
 window.title("PDF Merger")
 
-# Create a frame for file selection
+# Create file selection
 file_frame = tk.Frame(window)
 file_frame.grid(row=0, column=0, padx=10, pady=10)
 
